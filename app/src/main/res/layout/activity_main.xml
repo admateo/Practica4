@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.efcs.practica4.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView_antes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/beforecookie"
+            app:srcCompat="@drawable/beforecookie" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/textView_hambriento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.49"
+            android:text="@string/estoy_hambriento"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="44sp" />
+
+        <Button
+            android:id="@+id/button_comer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comer_cookie"
+            android:layout_weight="0.51" />
+
+    </LinearLayout>
+</LinearLayout>

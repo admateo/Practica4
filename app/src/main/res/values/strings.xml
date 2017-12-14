@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practica 4</string>
+    <string name="estoy_hambriento">Estoy hambriento!</string>
+    <string name="beforecookie">beforecookie</string>
+    <string name="comer_cookie">Comer cookie</string>
+    <string name="estoy_lleno">Estoy lleno</string>
+</resources>
